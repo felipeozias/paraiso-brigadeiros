@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url(../fonts/Helvetica.woff);
+}
+
+@font-face {
+    font-family: 'proxima';
+    src: url(../fonts/Proxima-Nova-Font.woff);
+}
+
+/* ---------- header ---------- */
+header,
+header ul {
+    z-index: 1;
+    display: flex;
+    height: 54px;
+    width: 100vw;
+    list-style: none;
+    background-color: #362e26;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    text-decoration: none;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    padding: 0 32px;
+}
